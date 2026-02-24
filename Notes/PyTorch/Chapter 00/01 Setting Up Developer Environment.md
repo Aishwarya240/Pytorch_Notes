@@ -23,3 +23,10 @@
 	-  Here instead of `myenv` give your kernel name.
 	
 ---
+###  Installing PyTorch
+- First you need to install PyTorch in the newly created environment : `uv pip install jupyter lab.`
+-  After installation run the jupyter lab using this command: `jupyter lab`
+>[!Warning]
+> Use the `jupyter lab .` command in the current working project directory.
+---
+
