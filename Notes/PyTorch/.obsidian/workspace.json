@@ -27,32 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chapter 00/Installing PyTorch.md",
-                "mode": "source",
+                "file": "Chapter 00/01 Setting Up Developer Environment.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Installing PyTorch"
+              "title": "01 Setting Up Developer Environment"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "551c0cdc2d7b15fc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "99952696d4673850",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter 00/Installing PyTorch.md",
+                "file": "Chapter 00/01 Setting Up Developer Environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Installing PyTorch"
+              "title": "Backlinks for 01 Setting Up Developer Environment"
             }
           },
           {
@@ -144,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chapter 00/Installing PyTorch.md",
+                "file": "Chapter 00/01 Setting Up Developer Environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Installing PyTorch"
+              "title": "Outgoing links from 01 Setting Up Developer Environment"
             }
           },
           {
@@ -187,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chapter 00/Installing PyTorch.md",
+                "file": "Chapter 00/01 Setting Up Developer Environment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Installing PyTorch"
+              "title": "Outline of 01 Setting Up Developer Environment"
             }
           }
         ]
@@ -217,7 +201,9 @@
   "active": "2f818215b3b042ff",
   "lastOpenFiles": [
     "Chapter 00/Introduction to PyTorch.md",
+    "Chapter 00/01 Setting Up Developer Environment.md",
     "Chapter 00/Installing PyTorch.md",
+    "Untitled",
     "Chapter 00.md",
     "Chapter 00",
     "Untitled.base",
