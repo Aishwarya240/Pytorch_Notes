@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "a1f75ac655f9d91b",
+    "type": "split",
+    "children": [
+      {
+        "id": "024fdda313a1de2f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd8f8f2b0e3cc088",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter 00/Introduction to PyTorch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction to PyTorch"
+            }
+          },
+          {
+            "id": "2f818215b3b042ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter 00/Installing PyTorch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Installing PyTorch"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "551c0cdc2d7b15fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99952696d4673850",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0efac29a7dd9e39a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b853b58b300b32bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4031eb2f6d14e941",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b1cbce3fa43d3aa2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "93eea12408707cad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8f298ecb0c994826",
+    "type": "split",
+    "children": [
+      {
+        "id": "77fa0c22e6844094",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ef64f9b129c236a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chapter 00/Installing PyTorch.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Installing PyTorch"
+            }
+          },
+          {
+            "id": "cc408d5784290d09",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Chapter 00/Installing PyTorch.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Installing PyTorch"
+            }
+          },
+          {
+            "id": "e3ac2ff65d3bb6e2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9b1055d60f96f0f6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e7e2261a17717c8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Chapter 00/Installing PyTorch.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Installing PyTorch"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2f818215b3b042ff",
+  "lastOpenFiles": [
+    "Chapter 00/Introduction to PyTorch.md",
+    "Chapter 00/Installing PyTorch.md",
+    "Chapter 00.md",
+    "Chapter 00",
+    "Untitled.base",
+    "Welcome.md"
+  ]
+}
