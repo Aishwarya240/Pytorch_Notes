@@ -1,0 +1,15 @@
+{
+  "os":  "Linux-6.14.0-37-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.13.11",
+  "startedAt":  "2026-03-03T13:34:56.490951Z",
+  "program":  "<python with no main file>",
+  "git":  {
+    "remote":  "git@github.com:Aishwarya240/Pytorch_Notes.git",
+    "commit":  "e5b5804fe93e4f99f699562ffe584503dca348a5"
+  },
+  "email":  "aishwaryapatil845@gmail.com",
+  "root":  "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks",
+  "host":  "MyLinux",
+  "executable":  "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/bin/python",
+  "writerId":  "abbkkv0v2alquyq03d6f9amd62r2ov6w"
+}

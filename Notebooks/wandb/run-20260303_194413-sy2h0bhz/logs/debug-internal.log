@@ -1,0 +1,6 @@
+{"time":"2026-03-03T19:44:16.141053892+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-03T19:44:16.731023998+05:30","level":"INFO","msg":"stream: created new stream","id":"sy2h0bhz"}
+{"time":"2026-03-03T19:44:16.731059702+05:30","level":"INFO","msg":"handler: started","stream_id":"sy2h0bhz"}
+{"time":"2026-03-03T19:44:16.731173957+05:30","level":"INFO","msg":"stream: started","id":"sy2h0bhz"}
+{"time":"2026-03-03T19:44:16.73117587+05:30","level":"INFO","msg":"writer: started","stream_id":"sy2h0bhz"}
+{"time":"2026-03-03T19:44:16.731185166+05:30","level":"INFO","msg":"sender: started","stream_id":"sy2h0bhz"}

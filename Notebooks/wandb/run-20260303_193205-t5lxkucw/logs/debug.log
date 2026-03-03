@@ -1,0 +1,81 @@
+2026-03-03 19:32:05,670 INFO    MainThread:12359 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/wandb/run-20260303_193205-t5lxkucw/logs/debug.log
+2026-03-03 19:32:05,670 INFO    MainThread:12359 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/wandb/run-20260303_193205-t5lxkucw/logs/debug-internal.log
+2026-03-03 19:32:05,670 INFO    MainThread:12359 [wandb_init.py:init():844] calling init triggers
+2026-03-03 19:32:05,670 INFO    MainThread:12359 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'architecture': 'FNN', 'dataset': 'Heart_Disease Dataset', 'epochs': 100, '_wandb': {}}
+2026-03-03 19:32:07,768 INFO    MainThread:12359 [wandb_init.py:init():892] starting backend
+2026-03-03 19:32:07,768 INFO    MainThread:12359 [wandb_init.py:init():895] sending inform_init request
+2026-03-03 19:32:07,769 INFO    MainThread:12359 [wandb_init.py:init():903] backend started and connected
+2026-03-03 19:32:07,773 INFO    MainThread:12359 [wandb_run.py:_label_probe_notebook():1333] probe notebook
+2026-03-03 19:32:07,773 INFO    MainThread:12359 [wandb_run.py:_label_probe_notebook():1343] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2026-03-03 19:32:07,773 INFO    MainThread:12359 [wandb_init.py:init():973] updated telemetry
+2026-03-03 19:32:07,780 INFO    MainThread:12359 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-03-03 19:32:09,659 INFO    MainThread:12359 [wandb_init.py:init():1042] starting run threads in backend
+2026-03-03 19:32:09,787 INFO    MainThread:12359 [wandb_run.py:_console_start():2524] atexit reg
+2026-03-03 19:32:09,787 INFO    MainThread:12359 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-03-03 19:32:09,787 INFO    MainThread:12359 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-03-03 19:32:09,787 INFO    MainThread:12359 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-03-03 19:32:09,788 INFO    MainThread:12359 [wandb_init.py:init():1082] run started, returning control to user process
+2026-03-03 19:33:21,231 INFO    MainThread:12359 [wandb_run.py:_finish():2291] finishing run aishwaryapatil845-aish-com/HeartModel/t5lxkucw
+2026-03-03 19:33:21,232 INFO    MainThread:12359 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-03-03 19:33:21,232 INFO    MainThread:12359 [wandb_run.py:_restore():2472] restore
+2026-03-03 19:33:21,233 INFO    MainThread:12359 [wandb_run.py:_restore():2478] restore done
+2026-03-03 19:33:49,553 WARNING MainThread:12359 [wandb_init.py:init():1587] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 1578, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/wandb_init.py", line 865, in init
+    self._wl.finish_all_active_runs()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/wandb_setup.py", line 166, in finish_all_active_runs
+    run.finish()
+    ~~~~~~~~~~^^
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 444, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2279, in finish
+    return self._finish(exit_code)
+           ~~~~~~~~~~~~^^^^^^^^^^^
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2307, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2501, in _atexit_cleanup
+    self._on_finish()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 2725, in _on_finish
+    wait_with_progress(
+    ~~~~~~~~~~~~~~~~~~^
+        exit_handle,
+        ^^^^^^^^^^^^
+    ...<5 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        [handle],
+        ^^^^^^^^^
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+        display_progress=display_progress,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )[0]
+    ^
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 78, in wait_all_with_progress
+    return asyncer.run(progress_loop_with_timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/lib/python3.13/site-packages/wandb/sdk/lib/asyncio_manager.py", line 137, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/aishwarya/miniconda3/lib/python3.13/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/aishwarya/miniconda3/lib/python3.13/threading.py", line 359, in wait
+    waiter.acquire()
+    ~~~~~~~~~~~~~~^^
+KeyboardInterrupt

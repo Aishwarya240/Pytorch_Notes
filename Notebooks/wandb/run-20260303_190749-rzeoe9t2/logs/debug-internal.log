@@ -1,0 +1,14 @@
+{"time":"2026-03-03T19:07:49.769127097+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-03T19:07:50.581146824+05:30","level":"INFO","msg":"stream: created new stream","id":"rzeoe9t2"}
+{"time":"2026-03-03T19:07:50.581257849+05:30","level":"INFO","msg":"handler: started","stream_id":"rzeoe9t2"}
+{"time":"2026-03-03T19:07:50.581425796+05:30","level":"INFO","msg":"stream: started","id":"rzeoe9t2"}
+{"time":"2026-03-03T19:07:50.581605708+05:30","level":"INFO","msg":"writer: started","stream_id":"rzeoe9t2"}
+{"time":"2026-03-03T19:07:50.581655576+05:30","level":"INFO","msg":"sender: started","stream_id":"rzeoe9t2"}
+{"time":"2026-03-03T19:25:13.087200033+05:30","level":"ERROR","msg":"api: HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/aishwaryapatil845-aish-com/my-awesome-project/rzeoe9t2/file_stream"}
+{"time":"2026-03-03T19:25:13.087264393+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found url=https://api.wandb.ai/files/aishwaryapatil845-aish-com/my-awesome-project/rzeoe9t2/file_stream: {\"error\":\"project aishwaryapatil845-aish-com/my-awesome-project not found while streaming file\"}"}
+{"time":"2026-03-03T19:32:07.759944823+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-03T19:32:07.762801408+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-03T19:32:07.768058422+05:30","level":"INFO","msg":"stream: closing","id":"rzeoe9t2"}
+{"time":"2026-03-03T19:32:07.768081576+05:30","level":"INFO","msg":"handler: closed","stream_id":"rzeoe9t2"}
+{"time":"2026-03-03T19:32:07.768206259+05:30","level":"INFO","msg":"sender: closed","stream_id":"rzeoe9t2"}
+{"time":"2026-03-03T19:32:07.768221419+05:30","level":"INFO","msg":"stream: closed","id":"rzeoe9t2"}
