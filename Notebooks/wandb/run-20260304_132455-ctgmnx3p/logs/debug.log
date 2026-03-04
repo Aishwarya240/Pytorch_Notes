@@ -1,0 +1,23 @@
+2026-03-04 13:24:55,472 INFO    MainThread:6279 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/wandb/run-20260304_132455-ctgmnx3p/logs/debug.log
+2026-03-04 13:24:55,472 INFO    MainThread:6279 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/wandb/run-20260304_132455-ctgmnx3p/logs/debug-internal.log
+2026-03-04 13:24:55,472 INFO    MainThread:6279 [wandb_init.py:init():844] calling init triggers
+2026-03-04 13:24:55,473 INFO    MainThread:6279 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'architecture': 'FNN', 'dataset': 'Heart_Disease Dataset', 'epochs': 500, '_wandb': {}}
+2026-03-04 13:24:57,622 INFO    MainThread:6279 [wandb_init.py:init():892] starting backend
+2026-03-04 13:24:57,622 INFO    MainThread:6279 [wandb_init.py:init():895] sending inform_init request
+2026-03-04 13:24:57,623 INFO    MainThread:6279 [wandb_init.py:init():903] backend started and connected
+2026-03-04 13:24:57,627 INFO    MainThread:6279 [wandb_run.py:_label_probe_notebook():1333] probe notebook
+2026-03-04 13:24:57,627 INFO    MainThread:6279 [wandb_run.py:_label_probe_notebook():1343] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2026-03-04 13:24:57,627 INFO    MainThread:6279 [wandb_init.py:init():973] updated telemetry
+2026-03-04 13:24:57,630 INFO    MainThread:6279 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-03-04 13:24:59,155 INFO    MainThread:6279 [wandb_init.py:init():1042] starting run threads in backend
+2026-03-04 13:24:59,221 INFO    MainThread:6279 [wandb_run.py:_console_start():2524] atexit reg
+2026-03-04 13:24:59,221 INFO    MainThread:6279 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-03-04 13:24:59,221 INFO    MainThread:6279 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-03-04 13:24:59,221 INFO    MainThread:6279 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-03-04 13:24:59,222 INFO    MainThread:6279 [wandb_init.py:init():1082] run started, returning control to user process
+2026-03-04 13:25:00,801 INFO    MainThread:6279 [wandb_run.py:_finish():2291] finishing run aishwaryapatil845-aish-com/HeartModel/ctgmnx3p
+2026-03-04 13:25:00,801 INFO    MainThread:6279 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-03-04 13:25:00,802 INFO    MainThread:6279 [wandb_run.py:_restore():2472] restore
+2026-03-04 13:25:00,802 INFO    MainThread:6279 [wandb_run.py:_restore():2478] restore done
+2026-03-04 13:25:03,255 INFO    MainThread:6279 [wandb_run.py:_footer_sync_info():3868] logging synced files
