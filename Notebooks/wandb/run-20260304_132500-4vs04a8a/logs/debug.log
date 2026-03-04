@@ -291,3 +291,13 @@ config: {'learning_rate': 0.001, 'architecture': 'FNN', 'dataset': 'Heart_Diseas
 2026-03-04 15:57:48,553 INFO    MainThread:6279 [jupyter.py:save_ipynb():362] [no run ID] not saving jupyter notebook
 2026-03-04 15:57:48,553 INFO    MainThread:6279 [wandb_init.py:_pre_run_cell_hook():595] [no run ID] pausing backend
 2026-03-04 15:57:48,589 INFO    MainThread:6279 [wandb_init.py:_post_run_cell_hook():606] [no run ID] resuming backend
+2026-03-04 16:13:22,771 INFO    MainThread:6279 [jupyter.py:save_ipynb():362] [no run ID] not saving jupyter notebook
+2026-03-04 16:13:22,771 INFO    MainThread:6279 [wandb_init.py:_pre_run_cell_hook():595] [no run ID] pausing backend
+2026-03-04 16:13:24,279 INFO    MainThread:6279 [wandb_run.py:_finish():2291] finishing run aishwaryapatil845-aish-com/HeartModel/4vs04a8a
+2026-03-04 16:13:24,280 INFO    MainThread:6279 [jupyter.py:save_history():435] not saving jupyter history
+2026-03-04 16:13:24,280 INFO    MainThread:6279 [jupyter.py:save_ipynb():362] not saving jupyter notebook
+2026-03-04 16:13:24,280 INFO    MainThread:6279 [wandb_init.py:_jupyter_teardown():621] cleaning up jupyter logic
+2026-03-04 16:13:24,280 INFO    MainThread:6279 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-03-04 16:13:24,281 INFO    MainThread:6279 [wandb_run.py:_restore():2472] restore
+2026-03-04 16:13:24,281 INFO    MainThread:6279 [wandb_run.py:_restore():2478] restore done
+2026-03-04 16:13:27,048 INFO    MainThread:6279 [wandb_run.py:_footer_sync_info():3868] logging synced files

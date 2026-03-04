@@ -1,0 +1,63 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            x5ezjaz0q1kge3utvjv51tf827yhi3s3:
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "160093679616"
+                        used: "58965372928"
+                email: aishwaryapatil845@gmail.com
+                executable: /home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks/.venv/bin/python
+                git:
+                    commit: 967de8f2869ae9722a1047c8de8b561d6bfd82f6
+                    remote: git@github.com:Aishwarya240/Pytorch_Notes.git
+                gpu: NVIDIA GeForce GTX 1650
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 896
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650
+                      uuid: GPU-a607dbbf-074d-c45a-a9c7-fe048eb5eb94
+                host: MyLinux
+                memory:
+                    total: "16384462848"
+                os: Linux-6.14.0-37-generic-x86_64-with-glibc2.39
+                program: <python with no main file>
+                python: CPython 3.13.11
+                root: /home/aishwarya/Downloads/Notes/PyTorch_Notes/Notebooks
+                startedAt: "2026-03-04T11:39:08.445958Z"
+                writerId: x5ezjaz0q1kge3utvjv51tf827yhi3s3
+        m: []
+        python_version: 3.13.11
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.13.11
+            "5": 0.25.0
+            "8":
+                - 1
+            "12": 0.25.0
+            "13": linux-x86_64
+architecture:
+    value: FNN
+dataset:
+    value: Iris
+epochs:
+    value: 500
+learning_rate:
+    value: 0.001
