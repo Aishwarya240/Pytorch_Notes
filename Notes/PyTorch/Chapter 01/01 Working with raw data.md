@@ -110,6 +110,75 @@ data.info()
 ```
 
 ```Text
+# Output
+<class 'pandas.DataFrame'>
+RangeIndex: 918 entries, 0 to 917
+Data columns (total 12 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Age             918 non-null    int64  
+ 1   Sex             918 non-null    str    
+ 2   ChestPainType   918 non-null    str    
+ 3   RestingBP       918 non-null    int64  
+ 4   Cholesterol     918 non-null    int64  
+ 5   FastingBS       918 non-null    int64  
+ 6   RestingECG      918 non-null    str    
+ 7   MaxHR           918 non-null    int64  
+ 8   ExerciseAngina  918 non-null    str    
+ 9   Oldpeak         918 non-null    float64
+ 10  ST_Slope        918 non-null    str    
+ 11  HeartDisease    918 non-null    int64  
+dtypes: float64(1), int64(6), str(5)
+memory usage: 86.2 KB
+```
+- We can see there are total 11 features containing `float`, `int` and `string` data types.
+>[!Warning]
+>Any A.I. model will work only on numerically formatted data. Models can't work on string data types.
+- We can see there are `string` data type features in our dataset. To train our models we need to convert these feature columns into numerical data types such as `float` or `int`.
+- But before that we need to split our data into input feature which will be stored in `X` variable and a output feature which will be stored in `y` variable.
+- Here our main target column feature is `HeartDisease` which has binary target values (0, 1)/(False/True).
+- We will be using pandas `drop` method to drop the `HeartDisease` column for our `X` dataframe. and we will be only considering `HeartDisease` column for our `y` feature column.
+```Python
+X = data.drop(["HeartDisease"], axis=1)
+y = data["HeartDisease"]
+```
+- Now lets deal with the data types.
+- To transform the string data type feature columns in our `X` variable we will be using Scikit-Learn label encoder which will transform our string data type value into integer class data types.
+- Let's see a example of label encoder.
+	- Consider a variable containing values as 
+	- ```Python
+	  v = ["cat", "dog", "cat", "tiger"]
+		``` 
+	- Now lets import our Scikit-Learn label encoder 
+	- ```Python
+	  from sklearn.preprocessing import LabelEncoder
+	  
+	  le = LabelEncoder()
+	  ```
+	  - Now lets transform our string data into integer data type
+	  - ```Python
+	   le.fit_transform(v)
+	    ```
+	- The output will be 
+	- ```Text
+	  array([0, 1, 0, 2]) 
+	   ```
+- Now lets apply our label encode in each column of `X` input feature data.
+```Python
+from sklearn.preprocessing import LabelEncoder
+
+le = LabelEncoder()  
+col = ["Sex", "ChestPainType", "RestingECG", "ExerciseAngina", "ST_Slope"]  
+  
+X[col] = X[col].apply(le.fit_transform)  
+  
+X.head()
+```
+- Now let's check all the columns data types are numeric type or not.
+```Python
+X.info()
+```
+```Text
 <class 'pandas.DataFrame'>
 RangeIndex: 918 entries, 0 to 917
 Data columns (total 11 columns):
@@ -148,4 +217,3 @@ X_train, X_test, y_train, y_test = train_test_split(X_tensors, y_tensors, test_s
 X_train.shape, X_test.shape, y_train.shape, y_test.shape
 ```
 ---
-

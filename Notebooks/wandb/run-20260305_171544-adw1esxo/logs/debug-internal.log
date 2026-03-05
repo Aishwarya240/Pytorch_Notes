@@ -1,0 +1,6 @@
+{"time":"2026-03-05T17:15:48.642523135+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-03-05T17:15:49.247598785+05:30","level":"INFO","msg":"stream: created new stream","id":"adw1esxo"}
+{"time":"2026-03-05T17:15:49.247663889+05:30","level":"INFO","msg":"handler: started","stream_id":"adw1esxo"}
+{"time":"2026-03-05T17:15:49.24777515+05:30","level":"INFO","msg":"stream: started","id":"adw1esxo"}
+{"time":"2026-03-05T17:15:49.247836845+05:30","level":"INFO","msg":"writer: started","stream_id":"adw1esxo"}
+{"time":"2026-03-05T17:15:49.247840397+05:30","level":"INFO","msg":"sender: started","stream_id":"adw1esxo"}
