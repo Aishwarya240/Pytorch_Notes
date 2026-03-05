@@ -4,3 +4,12 @@
 {"time":"2026-03-05T17:15:49.24777515+05:30","level":"INFO","msg":"stream: started","id":"adw1esxo"}
 {"time":"2026-03-05T17:15:49.247836845+05:30","level":"INFO","msg":"writer: started","stream_id":"adw1esxo"}
 {"time":"2026-03-05T17:15:49.247840397+05:30","level":"INFO","msg":"sender: started","stream_id":"adw1esxo"}
+{"time":"2026-03-05T17:55:10.430123967+05:30","level":"ERROR","msg":"api: HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/aishwaryapatil845-aish-com/Crop_Recommendation/adw1esxo/file_stream"}
+{"time":"2026-03-05T17:55:10.430182626+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found url=https://api.wandb.ai/files/aishwaryapatil845-aish-com/Crop_Recommendation/adw1esxo/file_stream: {\"error\":\"run Crop_Recommendation/adw1esxo not found while streaming file\"}"}
+{"time":"2026-03-05T17:55:59.86451988+05:30","level":"INFO","msg":"stream: closing","id":"adw1esxo"}
+{"time":"2026-03-05T17:56:00.678165862+05:30","level":"ERROR","msg":"api: HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2026-03-05T17:56:00.678232939+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Crop_Recommendation/adw1esxo not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2026-03-05T17:56:00.678564409+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-03-05T17:56:00.678578576+05:30","level":"INFO","msg":"handler: closed","stream_id":"adw1esxo"}
+{"time":"2026-03-05T17:56:00.678623411+05:30","level":"INFO","msg":"sender: closed","stream_id":"adw1esxo"}
+{"time":"2026-03-05T17:56:00.678632951+05:30","level":"INFO","msg":"stream: closed","id":"adw1esxo"}
