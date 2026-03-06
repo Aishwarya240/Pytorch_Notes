@@ -4,3 +4,9 @@
 {"time":"2026-03-06T12:45:33.279441238+05:30","level":"INFO","msg":"stream: started","id":"grkzzseg"}
 {"time":"2026-03-06T12:45:33.279547936+05:30","level":"INFO","msg":"writer: started","stream_id":"grkzzseg"}
 {"time":"2026-03-06T12:45:33.279601315+05:30","level":"INFO","msg":"sender: started","stream_id":"grkzzseg"}
+{"time":"2026-03-06T16:54:00.582214892+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aishwaryapatil845-aish-com/Crop_Recommendation/grkzzseg/file_stream\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-03-06T16:57:02.759061682+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aishwaryapatil845-aish-com/Crop_Recommendation/grkzzseg/file_stream\": context deadline exceeded"}
+{"time":"2026-03-06T17:00:07.713487143+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aishwaryapatil845-aish-com/Crop_Recommendation/grkzzseg/file_stream\": context deadline exceeded"}
+{"time":"2026-03-06T17:03:16.280032307+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aishwaryapatil845-aish-com/Crop_Recommendation/grkzzseg/file_stream\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-03-06T17:06:35.678281085+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aishwaryapatil845-aish-com/Crop_Recommendation/grkzzseg/file_stream\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-03-06T17:07:59.218565414+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/aishwaryapatil845-aish-com/Crop_Recommendation/grkzzseg/file_stream\": read tcp 192.168.1.9:49474->35.186.228.49:443: read: connection timed out"}
